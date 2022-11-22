@@ -53,3 +53,21 @@ function binarySearch(arr,num){
 ```
 위 코드의 빅오는 O(log n)입니다.
 훨씬 더 효율적인 코드가 됬네요
+
+## 나이브 문자열 검색
+만약 긴 문자열에서 짧은 문자열이 등장하는 횟수를 세려고 합니다.
+간단한 접근법 중 하나는 문자쌍을 하나씩 확인하는 것입니다.
+```
+function naiveSearch(long,short){
+  let count =0;
+  for (let i =0; i< long.length;i++>){
+    for(let j= 0; j<short.lenght; j++){
+      if(short[j] !== long[i+j]) break;
+      if(j === short.length -1) count ++;
+    }
+  }
+
+  return count;
+}
+naviveSearch("lorie loled","lol")
+```
