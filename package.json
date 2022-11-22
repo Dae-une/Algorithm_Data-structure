@@ -1,0 +1,19 @@
+{
+  "name": "algorithm_data-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dae-une/Algorithm_Data-structure.git"
+  },
+  "author": "Dae-une",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dae-une/Algorithm_Data-structure/issues"
+  },
+  "homepage": "https://github.com/Dae-une/Algorithm_Data-structure#readme"
+}
