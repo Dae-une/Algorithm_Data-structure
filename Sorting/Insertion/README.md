@@ -19,3 +19,4 @@ function insertionSort(arr) {
 ```
 최악의 경우 빅오는 O(n^2)가 나옵니다.
 하지만 거의 정렬이 되어있는 경우,  굉장히 유리하게 작동합니다.
+![스크린샷 2022-11-23 오후 1 50 53](https://user-images.githubusercontent.com/104764474/203471366-627301eb-a945-474b-aa72-62f02eca60d7.png)
